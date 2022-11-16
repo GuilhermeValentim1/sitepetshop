@@ -1,0 +1,402 @@
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  background-color: rgb(255, 255, 255);
+}
+
+header {
+  background-color: rgb(0, 7, 78);
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  cursor: auto;
+
+}
+
+
+footer {
+  position: fixed;
+  height: 50px;
+  background-color: rgba(0, 7, 78);
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  margin-bottom: 0px;
+  color: rgb(231, 231, 231);
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+
+.cabecalho {
+  display: inline-block;
+  padding: 20px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  cursor: auto;
+}
+
+
+.rodape {
+  display: flex;
+  justify-content: space-evenly;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+
+.rd {
+  display: inline-block;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+
+.topo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #ffffff;
+  text-decoration: none;
+  cursor: auto;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+
+}
+
+.logo {
+  display: inline-block;
+  text-align: center;
+  margin-left: 50px;  
+
+}
+
+.sobre {
+  font-size: 50px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  color: #FFB100;
+  margin-top: 40px;
+  text-align: center;
+}
+
+.video {
+  width: 620px;
+  height: 420px;
+  margin-bottom: 6px;
+  margin-left: 70px;
+  margin-right: 6px;
+  margin-top: 30px;
+}
+
+.tabela {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 60px;
+  margin-left: 700px;
+  margin-right: 6px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+
+}
+
+td {
+  border-bottom: 2px solid rgb(77, 76, 76);
+  padding: 30px;
+  font-size: 25px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  padding-right: 72.5px;
+}
+
+.roxo {
+  background-color: rgba(0, 7, 78);
+  color: #FFB100;
+}
+
+.logofoto {
+  width: 75px;
+  height: 75px;
+  text-align: center;
+}
+
+.cinza {
+  background-color: rgba(190, 192, 192, 0.534);
+}
+
+.cima {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.PT {
+  text-decoration: none;
+  font-size: 27px;
+  color: rgb(231, 231, 231);
+}
+
+.itens {
+ margin-left: 150px;
+ margin-top: 50px;
+ align-items: baseline;
+}
+
+.precodino {
+  margin-left: 350px;
+  font-size: 23px;
+}
+
+.precogolf {
+  margin-left: 300px;
+  font-size: 23px;
+}
+
+.precomaca {
+  margin-left: 300px;
+  font-size: 23px;
+}
+
+.precocoru {
+  margin-left: 290px;
+  font-size: 23px;
+}
+
+.nomedino {
+  margin-left: 300px;
+  font-size: 23px;
+  
+}
+
+.nomegolf {
+  margin-left: 210px;
+  font-size: 23px;
+}
+
+.nomemaca {
+  margin-left: 225px;
+  font-size: 23px;
+}
+
+.nomecoru {
+  margin-left: 230px;
+  font-size: 23px;
+}
+
+.dinossauro {
+  width: 170px;
+  height: 170px;
+
+  margin-left: 150px;
+  border: solid #545454;
+  border-radius: 15px;
+  
+}
+
+.golfinho {
+  width: 170px;
+  height: 170px;
+  margin-left: 200px;
+  border: solid #545454;
+  border-radius: 15px;
+}
+
+.macaco {
+  width: 170px;
+  height: 170px;
+  margin-left: 200px;
+  border: solid #545454;
+  border-radius: 15px;
+}
+
+.coruja {
+  width: 170px;
+  height: 170px;
+  margin-left: 200px;
+  border: solid #545454;
+  border-radius: 15px;
+}
+
+.promo {
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #FFB100
+}
+
+.servicos {
+  font-size: 20px;
+  text-align: center;
+  margin-top: 60px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: #FFB100
+
+}
+
+/* CSS DA PARTE LOIGN */
+
+input {
+  display: block;
+  height: 55px;
+  width: 400px;
+  margin: 10px;
+  border-radius: 20px;
+  padding: 10px 20px;
+  font-size: 16pt; 
+}   
+
+.loginform {
+  width: 450px;
+  margin: 150px auto; 
+}
+
+#login {
+  width: 450px;
+  background-color: rgba(0, 7, 78);
+  color: white;
+}
+
+#acesso {
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 50px ;
+  color: #FFB100;
+}
+
+#nome {
+  background-color: rgb(255, 255, 255);
+}
+
+#senha {
+  background-color: rgb(255, 255, 255);
+}
+
+/* CSS DA PARTE QUEM SOMOS*/
+
+.textoqm {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 18px;
+  text-align: justify;
+  border-right: solid rgb(255, 255, 255);
+  border-radius: 8.5px;
+  padding: 8px;
+
+  margin-left: 100px;
+}
+
+.divqm {
+  width: 47%;
+  height: 47%;
+  display: inline-block;
+}
+
+/* CSS DA PARTE NOSSOS PETS*/
+
+.petsfoto {
+  padding-top: 150px;
+}
+
+
+
+.cachorro1 {
+  width: 23%;
+  height: 20%;
+  display: inline-block;
+}
+
+.cachorro1foto {
+  width: 320px;
+  height: 320px;
+  margin-left: 70px;
+ 
+  
+}
+
+.c1txt {
+  color: #000000;
+  text-align: center;
+  font-size: 20px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin-left: 10px;
+}
+
+.cachorro2 {
+  width: 27%;
+  height: 20%;
+  display: inline-block;
+}
+
+.cachorro2foto {
+  width: 320px;
+  height: 320px;
+  margin-left: 120px;
+  
+ 
+}
+
+.c2txt {
+  color: #000000;
+  text-align: center;
+  font-size: 20px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ 
+}
+
+.gato1{
+  width: 22.5%;
+  height: 25%;
+  display: inline-block;
+}
+
+.gato1foto {
+  width: 400px;
+  height: 310px;
+  margin-left: 20px;
+ 
+  
+}
+
+.g1txt {
+  color: #000000;
+  text-align: center;
+  font-size: 20px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  
+}
+
+.gato2{
+  width: 26%;
+  height: 30%;
+  display: inline-block;
+}
+
+.gato2foto {
+  width: 330px;
+  height: 300px;
+  margin-left: 50px;
+ 
+ 
+}
+
+.g2txt {
+  color: #000000;
+  text-align: center;
+  font-size: 20px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  
+}
+
+/* CSS DA PARTE CONTATO*/
+
+input {
+  display: block;
+  height: 55px;
+  width: 400px;
+  margin: 10px;
+  border-radius: 20px;
+  padding: 10px 20px;
+  font-size: 16pt; 
+}
+
+  #enviarcontato {
+    width: 450px;
+    background-color: rgba(0, 7, 78);
+    color: white;
+}
+
+.contatoform {
+  width: 450px;
+  margin: 150px auto; 
+}
